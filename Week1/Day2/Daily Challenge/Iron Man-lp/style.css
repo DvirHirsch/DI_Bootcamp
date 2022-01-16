@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	background-image: url(images/bg2.jpg);
+	background-size: cover; /* <------ */
+	background-repeat: no-repeat;
+}
+section {
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	padding: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 10px 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgba(17, 17, 17, 0.8);
+}
+
+header .logo {
+	position: relative;
+	max-width: 80px;
+}
+header ul {
+	position: relative;
+	display: flex;
+}
+
+header ul li {
+	list-style: none;
+}
+
+header ul li a {
+	display: inline-block;
+	color: #fff;
+	font-weight: 400;
+	margin-left: 40px;
+	text-decoration: none;
+}
+
+.content {
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.content .textBox {
+	position: relative;
+	max-width: 450px;
+}
+
+.content .textBox h2 {
+	font-size: 4em;
+	line-height: 1.4em;
+	font-weight: 500;
+	background: -webkit-linear-gradient(
+		227deg,
+		rgba(170, 12, 44, 1) 0%,
+		rgba(244, 218, 47, 1) 35%,
+		rgba(148, 11, 50, 1) 100%
+	);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.content .textBox h2 span {
+	font-size: 1.2em;
+	font-weight: 900;
+}
+
+.content .textBox h3 {
+	color: #fff;
+	font-weight: 500;
+	font-size: 1.4em;
+	text-transform: uppercase;
+}
+
+.content .textBox h4 {
+	background: -webkit-linear-gradient(
+		227deg,
+		rgba(170, 12, 44, 1) 0%,
+		rgba(244, 218, 47, 1) 35%,
+		rgba(148, 11, 50, 1) 100%
+	);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.content .textBox p {
+	color: #fff;
+}
+

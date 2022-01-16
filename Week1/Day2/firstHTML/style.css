@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+}
+
+body {
+	padding: 10px 40px;
+	background: linear-gradient(90deg, #efd5ff 0%, #838bf5 100%);
+}
+
+h1,
+h2,
+h3 {
+	background: -webkit-linear-gradient(90deg, #8532b8 0%, #5f68e4 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-shadow: -3px 0px 5px rgba(139, 42, 190, 0.3);
+}
+
+hr {
+	border: 1px solid rgb(224, 224, 224);
+	border-radius: 15px;
+}
+
+.senses {
+	padding-left: 50px;
+}
+
+.senses h3 {
+	text-decoration: underline;
+}
+
+.media {
+	text-align: center;
+}
+
+img {
+	height: 450px;
+	width: 450px;
+	box-shadow: -17px 19px 40px 2px rgba(102, 102, 102, 0.7);
+	-webkit-box-shadow: -17px 19px 40px 2px rgba(102, 102, 102, 0.7);
+	-moz-box-shadow: -17px 19px 40px 2px rgba(102, 102, 102, 0.7);
+}
+
+.infoLion {
+	padding-top: 15px;
+}
+
+.diffTitle {
+	text-align: center;
+	margin-top: 45px;
+	margin-bottom: 10px;
+	font-weight: 700;
+	background: -webkit-linear-gradient(90deg, #8532b8 0%, #5f68e4 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-shadow: -3px 0px 5px rgba(139, 42, 190, 0.3);
+}
+
+table {
+	width: 100%;
+	border: 1px solid #b3adad;
+	border-collapse: collapse;
+	border-spacing: 3px;
+	padding: 5px;
+}
+table th {
+	border: 1px solid #b3adad;
+	padding: 10px;
+	background: #f0f0f0;
+	color: #313030;
+}
+table td {
+	border: 1px solid #b3adad;
+	text-align: center;
+	padding: 10px;
+	background: #ffffff;
+	color: #313030;
+}
