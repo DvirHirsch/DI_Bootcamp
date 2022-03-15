@@ -1,0 +1,14 @@
+header {
+	margin: 2%;
+}
+
+img {
+	height: 50px;
+	width: 50px;
+	border-radius: 50px;
+}
+
+#welcome {
+	font-weight: 500;
+	margin-left: 1%;
+}

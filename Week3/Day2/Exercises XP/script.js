@@ -1,17 +1,45 @@
-// Exercise 1
+console.log(`-----*****----- Exercise 1: Your favorite food -----*****-----`);
+/*
+  1. Store your favorite food into a variable.
+  2. Store your favorite meal into a variable (ie. breakfast, lunch or dinner)
+  3. Console.log I eat <favorite food> at every <favorite meal>
+*/
 let favFood = 'Afganit';
 let favMeal = 'lunch';
 console.log(`I eat ${favFood} at every ${favMeal}`);
 
-//  Exercise 2
-//    Part 1
+console.log(`-----*****----- Exercise 2 : Series -----*****-----`);
+console.log(`--- Part I ---`);
+/*
+Part I
+
+Using this array : let watchedSeries = ["black mirror", "money heist", "the big bang theory"]
+
+    1. Create a variable named watchedSeriesLength that is equal to the number of series in the watchedSeries array.
+
+    2. Create a variable named myWatchedSeries, that is equal to a sentence describing the series you watched
+    For example : black mirror, money heist, and the big bang theory
+
+    3. Console.log a sentence using both of the variables created above
+    For example : I watched 3 series : black mirror, money heist, and the big bang theory
+*/
 let watchedSeries = ['black mirror', 'money heist', 'the big bang theory'];
 let watchedSeriesLength = watchedSeries.length;
 let myWatchedSeries = watchedSeries.toString();
 
 console.log(`I watched ${watchedSeriesLength} series: ${myWatchedSeries}`);
 
-//    Part 2
+console.log(`--- Part II ---`);
+/*
+Part II
+
+    1. Change the series “the big bang theory” to “friends”. Hint : You will need to use  the index of “the big bang theory” series.
+    2. Add, at the end of the array, the name of another series you watched.
+    3. Add, at the beginning of the array, the name of your favorite series.
+    4. Delete the series “black mirror”.
+    5. Console.log the third letter of the series “money heist”.
+    6. Console.log the watchedSeries array.
+*/
 watchedSeries.splice(2, 1, 'friends');
 console.log(watchedSeries);
 
@@ -25,13 +53,24 @@ console.log(watchedSeries[1][2]);
 
 console.log(watchedSeries);
 
-//  Exercise 3
+console.log(
+	`-----*****----- Exercise 3 : The temperature converter -----*****-----`
+);
+/*
+    1. Store a celsius temperature into a variable.
+
+    2. Convert it to fahrenheit and console.log <temperature>°C is <temperature>°F.
+    Hint : Should you create another variable to hold the temperature in fahrenheit? (ie. point 2)
+    Hint: To convert a temperature from celsius to fahrenheit : Divide it by 5, then multiply it by 9, then add 32
+*/
 let celsTemp = 25;
 let fharTemp = (celsTemp / 5) * 9 + 32;
 
 console.log(`${celsTemp}°C is ${fharTemp}°F`);
 
-//  Exercise 4
+console.log(
+	`-----*****----- Exercise 4 : Guess the answers #1 -----*****-----`
+);
 let c;
 let a = 34;
 let b = 21;
@@ -59,7 +98,9 @@ console.log(3 + 4 + '5');
 // Actual: '75'
 // explain: the outcome is '75' in string becuase if u add string to a number value(7), the whole value will become string. ('75' instead of 12)
 
-//  Exercise 5
+console.log(
+	`-----*****----- Exercise 5 : Guess the answers #2 -----*****-----`
+);
 typeof 15;
 // Prediction: number
 // Actual: number
@@ -79,8 +120,8 @@ console.log(typeof NaN);
 
 typeof 'hello';
 // Prediction: string
-// Actual:
-// explain:
+// Actual: string
+// explain: a value of string
 console.log(typeof 'hello');
 
 typeof true;
@@ -97,7 +138,7 @@ console.log(typeof (1 != 2));
 
 'hamburger' + 's';
 // Prediction: hamburgers
-// Actual: hamburger
+// Actual: hamburgers
 // explain: add a letter(string) to a string
 console.log('hamburger' + 's');
 
@@ -108,8 +149,8 @@ console.log('hamburger' + 's');
 console.log('hamburgers' - 's');
 
 '1' + '3';
-// Prediction: 13
-// Actual: 13
+// Prediction: '13'
+// Actual: '13'
 // explain: adding string to a string results in string
 console.log('1' + '3');
 
@@ -155,7 +196,9 @@ console.log(1 == '1');
 // explain:  3 equals sign check comparison also of the type and not only the value (type number not equal to string)
 console.log(1 === '1');
 
-//  Exercise 6
+console.log(
+	`-----*****----- Exercise 6 : Guess the answers #3 -----*****-----`
+);
 5 + '34';
 // Prediction: '534'
 // Actual: '534'
@@ -237,7 +280,7 @@ console.log(!true);
 console.log(3 - 4);
 
 'Bob' - 'bill';
-// Prediction: nan
-// Actual:
+// Prediction: NaN
+// Actual: Nan
 // explain: subtraction only work on type numbers, so it converts both sides to numbers and gets NaN
 console.log('Bob' - 'bill');
